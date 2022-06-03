@@ -8,7 +8,7 @@ Jun 4 2022
 bikeshare
 
 ### Description
-Describe what your project is about and what it does
+Bike-Share is a project that allows you to explore data of the US bike-share system statistically. bike-share
 
 ### Files used
 Include the files used
