@@ -19,5 +19,5 @@ Bike-Share is a project that allows you to explore data of the US bike-share sys
 Include the files used: bikeshare.py chicago.csv new_york_city.csv washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Links for Trip History Data
 Trip History Data: https://ride.capitalbikeshare.com/system-data
