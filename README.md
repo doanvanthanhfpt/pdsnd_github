@@ -2,8 +2,8 @@
 
 ### Release version notes
 Please be noted lib versions
-Name: numpy; Version: 1.12.1
-Name: pandas; Version: 0.23.3
+numpy; Version: 1.12.1
+pandas; Version: 0.23.3
 
 ### Date created
 Include the date you created this project and README file.
