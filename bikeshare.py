@@ -22,6 +22,7 @@ MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun']
 DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
 
 from input_from_user import get_user_input
+from number_of_raw_mess import mess_line
 
 def get_filters():
     """
@@ -224,7 +225,7 @@ def user_stats(df):
     print('-'*40)
 
 def display_raw_data(df):
-    raw_amount = 5
+    raw_amount = mess_line()
     print(df.head(raw_amount))
     while True:
         display_more = input("\nDo you want to list more raw data? 'Yes' or 'No'\n").lower()
