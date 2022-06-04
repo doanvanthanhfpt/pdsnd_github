@@ -16,7 +16,7 @@ bikeshare tracking from Capital Bikeshare
 Bike-Share is a project that allows you to explore data of the US bike-share system statistically. bike-share
 
 ### Files used
-Include the files used: bikeshare.py chicago.csv new_york_city.csv washington.csv
+Current Trip History data and files used: bikeshare.py chicago.csv new_york_city.csv washington.csv
 
 ### Credits
 Links for Trip History Data
