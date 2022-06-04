@@ -1,5 +1,10 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
+### Release version notes
+Please be noted lib versions
+Name: numpy; Version: 1.12.1
+Name: pandas; Version: 0.23.3
+
 ### Date created
 Include the date you created this project and README file.
 Jun 4 2022
