@@ -8,8 +8,6 @@ import time
 import pandas as pd
 import numpy as np
 
-# from input_from_user import get_user_input
-
 CITY_DATA = { 'chicago': 'chicago.csv',
               'newyork': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -23,16 +21,8 @@ MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun']
 # define days of week
 DAYS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
 
-def get_user_input(typed_mess, user_list):
-    
-    while True:
-        typed_data = input(typed_mess).lower()
-        if typed_data in user_list:
-            break
-        if typed_data == 'all':
-            break
-    
-    return typed_data
+from input_from_user import get_user_input
+from number_of_raw_mess import mess_line
 
 def get_filters():
     """
@@ -235,7 +225,7 @@ def user_stats(df):
     print('-'*40)
 
 def display_raw_data(df):
-    raw_amount = 5
+    raw_amount = mess_line()
     print(df.head(raw_amount))
     while True:
         display_more = input("\nDo you want to list more raw data? 'Yes' or 'No'\n").lower()
