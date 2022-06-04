@@ -127,22 +127,16 @@ def station_stats(df):
     start_time = time.time()
 
     # TO DO: display most commonly used start station
-    #most_common_used_start_station = df['Start Station'].value_counts().idxmax()
-    #print('The most commonly used start station is: \n', most_common_used_start_station)
     most_common_used_start_station = 'Doing --- The most commonly used start station is: {} \n'.format(df['Start Station'].mode()[0])
     print(most_common_used_start_station)
 
 
     # TO DO: display most commonly used end station
-    #most_common_used_end_station = df['End Station'].value_counts().idxmax()
-    #print('The most commonly used end station is: \n', most_common_used_end_station)
     most_common_used_end_station = 'Doing --- The most commonly used end station is: {} \n'.format(df['End Station'].mode()[0])
     print(most_common_used_end_station)
 
 
     # TO DO: display most frequent combination of start station and end station trip
-    #most_combination_of_start_to_end = df[['Start Station', 'End Station']].mode().loc[0]
-    #print('The most frequent combination of start station and end station trip from {} to {}: \n'.format(most_combination_of_start_to_end[0], most_combination_of_start_to_end[1]))
     df['trip'] = df['Start Station'] + 'come to ' + df['End Station']
     most_combination_of_start_to_end = '\nDoing --- The most frequent combination of start station to end station is: {}\n'.format(df['trip'].mode()[0])
     print(most_common_used_start_station + most_common_used_end_station + most_combination_of_start_to_end)
